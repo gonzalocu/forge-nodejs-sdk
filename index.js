@@ -2,10 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var ForgeManagementApi_1 = require("./src/ForgeManagementApi");
 exports.ForgeManagementApi = ForgeManagementApi_1.ForgeManagementApi;
-var ForgeNotificationBus_1 = require("./src/ForgeNotificationBus");
-exports.ForgeNotificationBus = ForgeNotificationBus_1.ForgeNotificationBus;
-var DistributionNotificationBus_1 = require("./src/DistributionNotificationBus");
-exports.DistributionNotificationBus = DistributionNotificationBus_1.DistributionNotificationBus;
+//export {ForgeNotificationBus, IForgeNotificationBusOptions} from "./src/ForgeNotificationBus";
+//export {DistributionNotificationBus, IDistributionNotificationBusOptions} from "./src/DistributionNotificationBus";
 var ForgeDistributionApi_1 = require("./src/ForgeDistributionApi");
 exports.ForgeDistributionApi = ForgeDistributionApi_1.ForgeDistributionApi;
 exports.ReadSource = ForgeDistributionApi_1.ReadSource;
